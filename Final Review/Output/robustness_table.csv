@@ -1,0 +1,5 @@
+Condition,Noisy PSNR,VisNet (baseline) PSNR,VisNet (baseline) SSIM,VisNet + Sobel (attn + loss) PSNR,VisNet + Sobel (attn + loss) SSIM,U-Net (param-matched) PSNR,U-Net (param-matched) SSIM
+AWGN s=15,24.9,34.11,0.9274,34.03,0.9224,32.86,0.9201
+AWGN s=25,20.65,32.93,0.9033,33.04,0.9065,32.48,0.8862
+AWGN s=50,15.15,29.27,0.7911,29.6,0.8128,25.88,0.5873
+Poisson-Gaussian,18.76,32.0,0.8805,32.25,0.8905,31.24,0.848
